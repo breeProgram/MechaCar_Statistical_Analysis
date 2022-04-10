@@ -20,3 +20,28 @@ AutosRUs’ newest prototype, MechaCar, is suffering from production troubles th
 ![lot_summary](https://user-images.githubusercontent.com/56700719/162641169-807f92ba-ca70-4fd4-b3b6-0eadbc4582db.JPG)
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The variance on the overall summary does show that its well under 100 pounds per square inch. When a summary is done on individual lots, lot 3 is showing a variance of 170, well over the 100 pounds per square inch limit.
 ### T-Tests on Suspension Coils
+![ttest_total](https://user-images.githubusercontent.com/56700719/162641208-8ea3fadf-9b9f-4651-a392-4dc1c56e25af.JPG)
+- The p-value on the PSI for all lots is only 0.06 which is not low enough to disregard the null hypothesis.
+
+![ttest_lot1](https://user-images.githubusercontent.com/56700719/162641225-7549b573-5027-4656-a3a6-6066fef19e78.JPG)
+- The p-value on the PSI for lot 1 is 1, which is not low enough to disregard the null hypothesis.
+
+![ttest_lot2](https://user-images.githubusercontent.com/56700719/162641287-c5380f32-a369-4b3a-a864-d771a900c7a3.JPG)
+- The p-value on the PSI for lot 2 is 0.61 which is not low enough to disregard the null hypothesis.
+
+![ttest_lot3](https://user-images.githubusercontent.com/56700719/162641295-f8d83aa5-1aa5-4f31-86b0-13bc9b479c23.JPG)
+- The p-value on the PSI for lot 3 is 0.04 which is low enough to disregard the null hypothesis.
+
+### Study Design: MechaCar vs Competition
+After the analysis of MechaCar above, there can also be a statistical study that can quantify how the MechaCar performs against the competition. Some important metrics that can be used to test are mpg, crash test, and car performance based on the type or class of vehicle. For example, with the popularity of electric vehicles, you can’t analyze mpg off of an electric vehicle, instead you would use its driving range.
+#### Hypothesis
+To be able to analyze for crash test between MechaCar and its competition, the hypothesis would be that the MechaCar is safer than the competition because of its safety rating. 
+- With that the null hypothesis is the MechaCar is not safer than the competition because of its safety rating. 
+- The alternative hypothesis is the MechaCar is just as safe than the competition because of its safety rating.
+#### Testing
+To test for a result, a two-sample t-test can be used to compare the MechaCar’s safety rating with its competition.
+
+
+
+
+
